@@ -1,0 +1,833 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 120px; 
+    background-image: url("./navtop.jpg");
+    background-position: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    font-weight: bold;
+    
+}
+
+.upper-header{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    
+}
+
+.upper-header span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.upper-header span h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lower-header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lower-header h3{
+    display: none;
+}
+
+.lower-header .home{
+    width: 90%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lower-header ul li img{
+    width: 88px;
+}
+
+.lower-header .home li:hover{
+    background-color: rgb(35, 169, 35);
+    padding-block: 25px;
+    
+}
+
+.lower-header ul li{
+    list-style: none;
+    padding-inline: 25px;
+    font-size: 14px;
+}
+
+
+.fixed-icon{
+    height: 400px;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    
+    }
+    
+    .box1{
+        width: 45px;
+        height: 50px;
+        color: white;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin-bottom: 5px;
+        font-size: 25px;
+    
+    }
+    
+    .box2{
+        width: 45px;
+        height: 50px;
+        color: white;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        margin-bottom: 5px;
+    
+    }
+    
+    .box3{
+        width: 45px;
+        height: 50px;
+        color: white;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        margin-bottom: 5px;
+    
+    }
+    .box4{
+        width: 45px;
+        height: 50px;
+        color: white;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    
+    }
+  
+
+.god-section{
+    width: 100%;
+    height: auto;
+    padding-block: 30px;
+}
+
+.god-section h2{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+.god-section h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.god-first{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.himalayas{
+    position: relative;
+    overflow: hidden;
+}
+
+.himalayas img{
+    width: 350px;
+    height: 300px; 
+}
+
+.himalayas img:hover{
+    
+    transition: all ease-in-out 1s;
+    transform: scale(105%);
+}
+
+.himalayas h3{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 100px;
+    left: 120px;  
+}
+
+.himalayas h5{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 130px; 
+}
+
+.flora{
+position: relative;
+overflow: hidden;
+}
+
+.flora img:hover{
+    
+    transition: all ease-in-out 1s;
+    transform: scale(105%);
+}
+
+.flora img{
+    width: 350px;
+    height: 300px;
+}
+
+.flora h3{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 100px;
+    left: 100px;  
+}
+
+.flora h5{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 130px; 
+}
+
+.fairs{
+    position: relative;
+    overflow: hidden;
+}
+
+.fairs img{
+    width: 350px;
+    height: 300px;
+}
+
+.fairs img:hover{
+    
+    transition: all ease-in-out 1s;
+    transform: scale(105%);
+}
+
+.fairs h3{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 100px;
+    left: 110px;  
+}
+
+.fairs h5{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 130px; 
+}
+
+.god-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.cuisine{
+    position: relative;
+    overflow: hidden;
+}
+
+.cuisine img{
+    width: 350px;
+    height: 300px;
+}
+
+.cuisine img:hover{
+    
+    transition: all ease-in-out 1s;
+    transform: scale(105%);
+}
+
+.cuisine h3{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 100px;
+    left: 120px;  
+}
+
+.cuisine h5{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 130px; 
+}
+
+.adventure{
+    position: relative;
+    overflow: hidden;
+}
+
+.adventure img{
+    width: 350px;
+    height: 300px;
+}
+
+.adventure img:hover{
+    
+    transition: all ease-in-out 1s;
+    transform: scale(105%);
+}
+
+.adventure h3{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 100px;
+    left: 120px;  
+}
+
+.adventure h5{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 130px; 
+}
+
+.culture{
+    position: relative; 
+    overflow: hidden; 
+}
+
+.culture img{
+    width: 350px;
+    height: 300px;
+}
+
+.culture img:hover{
+    
+    transition: all ease-in-out 1s;
+    transform: scale(105%);
+}
+
+
+.culture h3{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 100px;
+    left: 70px;  
+}
+
+.culture h5{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 130px; 
+}
+
+.line{
+    background-color: red;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    top: 150px;
+    left: 130px;
+    
+}
+
+.state-section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(3, 3, 95);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 80px;
+}
+
+.state-text h1{
+font-size: 50px;
+font-weight: 400;
+padding-left: 30px;
+}
+
+.state-text p{
+    font-size: 18px;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.state-img img{
+    width: 600px; 
+}
+
+.destination{
+    width: 100%;
+    height: auto;
+    padding-block: 50px;
+    background-color: rgb(246, 246, 246);
+}
+
+.destination h2{
+    text-align: center;
+}
+
+.destination h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 450;
+    padding-top: 35px;
+}
+
+.destiny-text{
+    width: 40%;
+}
+
+.destiny-text p{
+    font-size: 18px;
+    line-height: 30px;
+   
+}
+
+.destiny-partly{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+.shimla-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shimla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shimla-text{
+    padding-left: 20px;
+    padding-right: 80px;
+}
+
+.shimla img{
+    width: 110px;
+    border-radius: 100px;
+}
+
+.manali{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.manali-text{
+    padding-left: 20px;
+}
+
+.manali img{
+    width: 110px;
+    border-radius: 100px;
+}
+
+.dharamshala{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dharamshala-main{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dharamshala-text{
+    padding-inline: 20px;
+}
+
+.dharamshala img{
+    width: 110px;
+    border-radius: 100px;
+}
+
+.chamba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chamba-text{
+    padding-left: 25px;
+}
+
+.chamba img{
+    width: 110px;
+    border-radius: 100px;
+}
+
+.footer-nav{
+    width: 100%;
+    height: auto;
+    background-image: url("./footernav_img.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-block: 30px;
+}
+
+.footer-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-nav ul li{
+    list-style: none;
+    padding: 28px;
+    color: white;
+    font-size: 22px;
+}
+
+.footer-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+   
+}
+
+.footer-section ul li{
+list-style: none;
+font-size: 12px;
+line-height: 25px;
+}
+
+.footer-section ul li:hover{
+    color: red;
+}
+
+.bharat-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.india-gov{
+    display: flex;
+    flex-direction: column;
+}
+
+.india-gov img{
+    width: 160px; 
+}
+
+.bharat{
+    display: flex;
+    flex-direction: column;
+}
+
+.circle{
+    width: 110px;
+}
+
+.bharatpic{
+    width: 220px;
+}
+
+.bharat-footer p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+@media (max-width:768px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-bar{
+        width: 100%;
+        height: auto;
+        background-image: none;
+        background-color: rgb(207, 207, 255);
+        
+    }
+
+    .upper-header{
+        
+        
+    }
+    .lower-header{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    .lower-header .home{
+        display: none;
+    }
+
+    .lower-header ul li img{
+        width: 70px;
+    }
+
+    .lower-header h3{
+        display: inline;
+        color: red;
+        padding-right: 20px;
+    }
+
+    .carousel-item img{
+        width: 100%;
+        height: 350px;
+    }
+
+    .god-section{
+        width: 100%;
+        height: auto;
+        padding-block: 30px;
+    }
+
+    .god-section h1{
+        font-size: 35px;
+    }
+
+    .god-first{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .god-first img{
+        width: 400px;
+        padding-bottom: 20px;
+    }
+
+    .god-second{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .god-second img{
+        width: 400px;
+        padding-bottom: 20px;
+    }
+
+    .state-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .state-text h1{
+        font-size: 40px;
+    }
+
+    .state-text p{
+        font-size: 15px;
+    }
+
+    .state-img img{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .destination{
+        width: 100%;
+        height: auto;
+        padding-block: 30px;
+       
+    }
+
+    .destination h1{
+font-size: 40px;
+    }
+
+    .destiny-partly{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+
+    .shimla-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+       
+    }
+
+    .shimla{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .shimla-text{
+        padding-left: none;
+        padding-right: none;
+    }
+
+    .dharamshala-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+
+    .dharamshala{
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+
+    .dharamshala-text{
+        padding-inline: 0px;
+        padding-left: 10px;
+    }
+
+    .chamba{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .chamba-text{
+        padding-left: 10px;
+    }
+
+    .manali{
+        display: flex;  
+        justify-content: space-evenly;
+    }
+
+    .destiny-text{
+        width: 100%;
+    }
+    
+    .destiny-text p{
+        font-size: 15px;
+        line-height: 30px;
+        padding-inline: 10px;
+        padding-top: 20px;
+    }
+
+    .utsav img{
+        width: 100%;
+        padding-inline: 20px;
+    }
+
+    .footer-nav{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .footer-nav ul li{
+      padding: 20px;
+    }
+
+    .footer-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bharat-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .india-gov{
+        display: flex;
+        /* flex-direction: none;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    .bharat{
+        display: flex;
+    }
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+}
+
+
